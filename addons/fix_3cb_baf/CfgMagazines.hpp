@@ -42,77 +42,77 @@ class CfgMagazines {
 
     class UK3CB_BAF_762_100Rnd: 150Rnd_762x51_Box {
         mass = 34;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_100Rnd_Blank: UK3CB_BAF_762_100Rnd {
         mass = 34;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_100Rnd_T: 150Rnd_762x51_Box_Tracer {
         mass = 34;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
 
     class UK3CB_BAF_762_200Rnd_Blank: UK3CB_BAF_762_100Rnd_Blank {
         mass = 62;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_200Rnd: UK3CB_BAF_762_100Rnd {
         mass = 62;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_200Rnd_T: UK3CB_BAF_762_100Rnd_T {
         mass = 62;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
+        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
         modelSpecialIsProxy = 1;
     };
 
     class UK3CB_BAF_556_100Rnd_Blank: UK3CB_BAF_556_30Rnd_Blank {
         mass = 27;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
     class UK3CB_BAF_556_100Rnd: UK3CB_BAF_556_30Rnd {
         mass = 27;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
     class UK3CB_BAF_556_100Rnd_T: UK3CB_BAF_556_30Rnd_T {
         mass = 27;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
 
     class UK3CB_BAF_556_200Rnd_Blank: UK3CB_BAF_556_100Rnd_Blank {
         mass = 52;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
     class UK3CB_BAF_556_200Rnd: UK3CB_BAF_556_100Rnd {
         mass = 52;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
     class UK3CB_BAF_556_200Rnd_T: UK3CB_BAF_556_100Rnd_T {
         mass = 52;
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
     };
 
     class UK3CB_BAF_9_30Rnd: 30Rnd_9x21_Mag {
-        model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
-        modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        model = "fix_3cb_baf\mesh\magazine\magazine.p3d";
+        modelSpecial = "fix_3cb_baf\mesh\magazine\proxy\30Rnd_9x19_MP5";
         modelSpecialIsProxy = 1;
     };
 
