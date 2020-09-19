@@ -171,4 +171,10 @@ class CfgMagazineWells {
             "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"
         };
     };
+
+    class CBA_50BMG_100rnds {
+        WB_Magazines[] += {
+            "UK3CB_BAF_127_100Rnd"
+        };
+    };
 };

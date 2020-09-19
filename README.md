@@ -2,14 +2,57 @@
 
 - Weapon changes:
     - UK3CB BAF:
+        - L110A1 5.56:
+            - Changed weight from 7.53kg to 7.44kg
+        - L111A1 & variants:
+            - Added 4x 12.7x99mm ACE CSW belts
+        - L119A1:
+            - Changed weight from 3.81kg to 3.42kg
+        - L119A1 CQB:
+            - Changed weight from 3.63kg to 3.26kg
+        - L119A1 UK UGL:
+            - Changed weight from 3.81kg to 4.91kg
+        - L119A1 with Front Grip:
+            - Changed weight from 3.81kg to 3.63kg
+        - L1A1s:
+            - Changed weight from 3.90kg to 4.31kg
+        - L22 & L22A2:
+            - Changed weight from 3.27kg to 3.54kg
+        - L85A3s:
+            - Changed weight from 4.40kg to 3.72kg
+        - L91A1:
+            - Changed weight from 3.08kg to 2.86kg
+        - L92A1:
+            - Changed weight from 2.81kg to 3.40kg
+
+- MagazineWells:
+    - CBA:
+        - .50cal HMG:
+            - Added 100Rnd 12.7x99 Belt
+
+- Weight balancing:
+    - UK3CB BAF:
+        - All (3x) 10Rnd 7.62x51mm L42A1 mags from 0.27kg to 0.40kg
+        - 100Rnd 12.7x99mm belt from 9.98kg to 4.35kg
+        - All (3x) 30Rnd 5.56x45mm STANAG mags from 0.45kg to 0.42kg
+        - All (3x) 100Rnd UK3CB 7.62 M60 belts from 1.54kg to 1.47kg
+        - All (3x) 200Rnd UK3CB 5.56 M249 belts from 2.36kg to 2.34kg
+
+- Models/Icons/Names:
+    - UK3CB BAF:
+        - Changed names of 12 Gauge 8Rnd buckshot and slugs
+        - Unhid 100Rnd 12.7x99mm belt in arsenal
+
+# Changelog for Weapons balance 29.7.2020
+
+- Weapon changes:
+    - UK3CB BAF:
         - L110 7.62:
             - Added CBA Magwells for 7.62 boxes and belts
             - Added swappable barrel
         - L110AX 5.56:
             - Added CBA Magwells for 5.56 boxes, belts and mags
             - Added swappable barrel
-        - L118A1s:
-            - Added 4x ACE 10 Rnd mags to compatible ammo
         - L128A1:
             - Added CBA Magwells for 12 Gauge rounds
         - L129A1:
@@ -84,16 +127,9 @@
     - UK3CB BAF:
         - All (3x) 20Rnd UK3CB 7.62 FAL mags from 0.54kg to 0.74kg
         - All (3x) 20Rnd UK3CB 7.62 L129A1 mags from 0.54kg to 0.74kg
+        - All (3x) 30Rnd 5.56x45mm STANAG mags from 0.45kg to 0.42kg
         - All (3x) 100Rnd UK3CB 7.62 M60 belts from 2.68kg to 1.45kg
         - All (3x) 200Rnd UK3CB 7.62 M60 belts from 5.40kg to 2.81kg
         - All (3x) 100Rnd UK3CB 5.56 M249 belts from 1.59kg to 1.22kg
-        - All (3x) 200Rnd UK3CB 5.56 M249 belts from 3.13kg to 2.36kg
+        - All (3x) 200Rnd UK3CB 5.56 M249 belts from 3.13kg to 2.34kg
         - Both 8Rnd 12 Gauge shells from 0.27kg to 0.40kg
-
-- Models/Icons/Names:
-    - UK3CB BAF:
-        - Added models to 100Rnd 5.56x45 boxes
-        - Added models to 200Rnd 5.56x45 boxes
-        - Added models to 100Rnd M60 7.62x51 belts
-        - Added models to 200Rnd M60 7.62x51 belts
-        - Added model to 30Rnd 9mm MP5 mag  

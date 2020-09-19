@@ -3,12 +3,10 @@ class CfgMagazines {
     class 20Rnd_762x51_Mag;
     class 150Rnd_762x51_Box;
     class 150Rnd_762x51_Box_Tracer;
-    class 30Rnd_9x21_Mag;
+    class 30Rnd_556x45_Stanag;
+    class 30Rnd_556x45_Stanag_Tracer_Red;
     class 100Rnd_127x99_mag;
     class 100Rnd_127x99_mag_Tracer_Red;
-    class UK3CB_BAF_556_30Rnd;
-    class UK3CB_BAF_556_30Rnd_Blank;
-    class UK3CB_BAF_556_30Rnd_T;
 
     class UK3CB_BAF_762_L42A1_20Rnd: 20Rnd_762x51_Mag {
        mass = 16.24;
@@ -41,79 +39,54 @@ class CfgMagazines {
     };
 
     class UK3CB_BAF_762_100Rnd: 150Rnd_762x51_Box {
-        mass = 34;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
+        mass = 32.34;
     };
     class UK3CB_BAF_762_100Rnd_Blank: UK3CB_BAF_762_100Rnd {
-        mass = 34;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
+        mass = 32.34;
     };
     class UK3CB_BAF_762_100Rnd_T: 150Rnd_762x51_Box_Tracer {
-        mass = 34;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
+        mass = 32.34;
     };
 
     class UK3CB_BAF_762_200Rnd_Blank: UK3CB_BAF_762_100Rnd_Blank {
         mass = 62;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_200Rnd: UK3CB_BAF_762_100Rnd {
         mass = 62;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
     };
     class UK3CB_BAF_762_200Rnd_T: UK3CB_BAF_762_100Rnd_T {
         mass = 62;
-        model = "fix_3cb_baf\mesh\magazine\100rnd_762NATO_M60.p3d";
-        modelSpecial = "\fix_3cb_baf\mesh\magazine\proxy\50Rnd_762NATO_M60";
-        modelSpecialIsProxy = 1;
     };
 
+    class UK3CB_BAF_556_30Rnd: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_BAF_556_30Rnd_T: 30Rnd_556x45_Stanag_Tracer_Red {
+        mass = 9.35;
+    };
+
+    class UK3CB_BAF_556_30Rnd_Blank;
     class UK3CB_BAF_556_100Rnd_Blank: UK3CB_BAF_556_30Rnd_Blank {
         mass = 27;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        reloadAction = "GestureReloadM200";
     };
     class UK3CB_BAF_556_100Rnd: UK3CB_BAF_556_30Rnd {
         mass = 27;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        reloadAction = "GestureReloadM200";
     };
     class UK3CB_BAF_556_100Rnd_T: UK3CB_BAF_556_30Rnd_T {
         mass = 27;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        reloadAction = "GestureReloadM200";
     };
 
     class UK3CB_BAF_556_200Rnd_Blank: UK3CB_BAF_556_100Rnd_Blank {
-        mass = 52;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        mass = 51.65;
     };
     class UK3CB_BAF_556_200Rnd: UK3CB_BAF_556_100Rnd {
-        mass = 52;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        mass = 51.65;
     };
     class UK3CB_BAF_556_200Rnd_T: UK3CB_BAF_556_100Rnd_T {
-        mass = 52;
-        //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-        //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
-    };
-
-    class UK3CB_BAF_9_30Rnd: 30Rnd_9x21_Mag {
-        model = "fix_3cb_baf\mesh\magazine\magazine.p3d";
-        modelSpecial = "fix_3cb_baf\mesh\magazine\proxy\30Rnd_9x19_MP5";
-        modelSpecialIsProxy = 1;
+        mass = 51.65;
     };
 
     class UK3CB_BAF_12G_Pellets: CA_Magazine {
