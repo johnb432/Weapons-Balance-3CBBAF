@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 20.10.2020
+
+- Weapon changes:
+    - UK3CB BAF:
+        - L128A1:
+            - Added 1-7Rnd 12 Gauge shells
+
 # Changelog for Weapons balance 23.8.2020
 
 - Weapon changes:

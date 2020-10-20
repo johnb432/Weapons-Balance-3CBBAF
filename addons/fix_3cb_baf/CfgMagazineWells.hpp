@@ -2,17 +2,7 @@ class CfgMagazineWells {
     class CBA_12g_8rnds {
         WB_Magazines[] += {
             "UK3CB_BAF_12G_Pellets",
-            "UK3CB_BAF_12G_Slugs",
-            "sfp_12Gauge_8rd_Pellets",
-            "sfp_12Gauge_8rd_Slug",
-            "ACE_8Rnd_12Gauge_Pellets_No00_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No0_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No1_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No2_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No3_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No4_Buck",
-            "ACE_8Rnd_12Gauge_Pellets_No4_Bird",
-            "ACE_8Rnd_12Gauge_Pellets_Slug_Buck"
+            "UK3CB_BAF_12G_Slugs"
         };
     };
 
