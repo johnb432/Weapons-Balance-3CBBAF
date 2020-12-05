@@ -1,3 +1,17 @@
+# Changelog for Weapons balance 05.12.2020
+
+- Unhid UK3CB BAF 32Rnd 40mm belt and changed weight from 9.61kg to 6.53kg
+
+- Weapon changes:
+    - UK3CB BAF:
+        - L86A2 LSW:
+            - Changed squad icon on DUI to AR type
+
+- Vehicles:
+    - UK3CB BAF:
+        - Coyote, Jackal, Husky, Land Rover, MAN HX and Panther CLV variants:
+            - Added intercom channels
+
 # Changelog for Weapons balance 20.10.2020
 
 - Weapon changes:

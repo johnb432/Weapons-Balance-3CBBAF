@@ -7,6 +7,8 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag_Tracer_Red;
     class 100Rnd_127x99_mag;
     class 100Rnd_127x99_mag_Tracer_Red;
+    class 32Rnd_40mm_G_belt;
+    class UK3CB_BAF_556_30Rnd_Blank;
 
     class UK3CB_BAF_762_L42A1_20Rnd: 20Rnd_762x51_Mag {
        mass = 16.24;
@@ -65,7 +67,6 @@ class CfgMagazines {
         mass = 9.35;
     };
 
-    class UK3CB_BAF_556_30Rnd_Blank;
     class UK3CB_BAF_556_100Rnd_Blank: UK3CB_BAF_556_30Rnd_Blank {
         mass = 27;
         reloadAction = "GestureReloadM200";
@@ -110,5 +111,10 @@ class CfgMagazines {
     class UK3CB_BAF_127_100Rnd: 100Rnd_127x99_mag_Tracer_Red {
         mass = 96;
         type = 256;
+    };
+
+    class UK3CB_BAF_32Rnd_40mm_G_Box: 32Rnd_40mm_G_belt {
+        ace_arsenal_hide = -1;
+        mass = 144;
     };
 };

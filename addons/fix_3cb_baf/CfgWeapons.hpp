@@ -111,6 +111,7 @@ class CfgWeapons {
     };
     class UK3CB_BAF_L86A2: UK3CB_BAF_L85A2 {
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
+        UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     };
     class UK3CB_BAF_L86A3: UK3CB_BAF_L85A2 {
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};

@@ -19,13 +19,19 @@ class CfgPatches {
             "uk3cb_baf_weapons_L131a1",
             "uk3cb_baf_weapons_Launchers",
             "uk3cb_baf_weapons_SmallArms",
-            "uk3cb_baf_weapons_static"
+            "uk3cb_baf_weapons_static",
+            "uk3cb_baf_vehicles_coyote_jackal",
+            "uk3cb_baf_vehicles_Husky",
+            "uk3cb_baf_vehicles_landrover",
+            "uk3cb_baf_vehicles_panther",
+            "uk3cb_baf_vehicles_MAN"
         };
         author = "johnb43";
     };
 };
 
 #include "CfgAcc.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
