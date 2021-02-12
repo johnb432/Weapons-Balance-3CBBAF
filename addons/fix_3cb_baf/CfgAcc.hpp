@@ -28,7 +28,7 @@ class CowsSlot_Rail: CowsSlot {
 class asdg_OpticRail: asdg_SlotInfo {
     class compatibleItems {};
 };
-class asdg_OpticRail1913_3CB_FNFAL: asdg_OpticRail {
+class UK3CB_OpticRail1913_FNFAL: asdg_OpticRail {
     class compatibleItems {
         uk3cb_baf_suit = 1;
     };
