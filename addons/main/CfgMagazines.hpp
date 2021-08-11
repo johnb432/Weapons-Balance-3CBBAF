@@ -60,6 +60,16 @@ class CfgMagazines {
         mass = 62;
     };
 
+    class UK3CB_BAF_762_800Rnd_Blank: UK3CB_BAF_762_100Rnd_Blank {
+        mass = 234.8;
+    };
+    class UK3CB_BAF_762_800Rnd: UK3CB_BAF_762_100Rnd {
+        mass = 234.8;
+    };
+    class UK3CB_BAF_762_800Rnd_T: UK3CB_BAF_762_100Rnd_T {
+        mass = 234.8;
+    };
+
     class UK3CB_BAF_556_30Rnd: 30Rnd_556x45_Stanag {
         mass = 9.35;
     };

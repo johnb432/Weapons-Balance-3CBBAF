@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix3cbbaf {
-        name = "Weapons balance - Fix 3CB BAF";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "uk3cb_baf_weapons_Accessories",
             "uk3cb_baf_weapons_Ammo",

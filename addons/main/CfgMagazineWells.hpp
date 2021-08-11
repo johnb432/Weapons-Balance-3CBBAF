@@ -67,7 +67,10 @@ class CfgMagazineWells {
             "UK3CB_BAF_762_100Rnd_T",
             "UK3CB_BAF_762_200Rnd_Blank",
             "UK3CB_BAF_762_200Rnd",
-            "UK3CB_BAF_762_200Rnd_T"
+            "UK3CB_BAF_762_200Rnd_T",
+            "UK3CB_BAF_762_800Rnd_Blank",
+            "UK3CB_BAF_762_800Rnd",
+            "UK3CB_BAF_762_800Rnd_T"
         };
     };
 
@@ -119,7 +122,10 @@ class CfgMagazineWells {
             "UK3CB_BAF_762_100Rnd_T",
             "UK3CB_BAF_762_200Rnd_Blank",
             "UK3CB_BAF_762_200Rnd",
-            "UK3CB_BAF_762_200Rnd_T"
+            "UK3CB_BAF_762_200Rnd_T",
+            "UK3CB_BAF_762_800Rnd_Blank",
+            "UK3CB_BAF_762_800Rnd",
+            "UK3CB_BAF_762_800Rnd_T"
         };
     };
 

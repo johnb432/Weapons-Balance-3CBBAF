@@ -1,8 +1,35 @@
-# Changelog for Weapons balance 12.02.2021
+# Changelog for Weapons balance 9.8.2021
+
+1.1.0.0
+- Added hemtt support
+- Unhid 3x UK3CB BAF 800Rnd 7.62x51mm M240 belts and changed weight from 21.59kg to 10.65kg
+- Added weapon attachments compatibility
+
+- Weapon changes:
+    - UK3CB BAF:
+        - L129A1:
+            - Added long scope rail
+        - L1A1s:
+            - Added L1A1 scopes
+            - Added 7.62 muzzle attachments
+        - L85A3:
+            - Added long scope rail
+        - L115A3 variants:
+            - Added long scope rail
+        - L118A1s:
+            - Added long scope rail
+        - L135A1:
+            - Added long scope rail
+
+- Weight balancing:
+    - UK3CB BAF:
+        - Both .50 BMG M107 mags from 1.87kg to 1.27kg
+
+# Changelog for Weapons balance 12.2.2021
 
 - Updated to comply with 3CB Faction update
 
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 5.12.2020
 
 - Unhid UK3CB BAF 32Rnd 40mm belt and changed weight from 9.61kg to 6.53kg
 

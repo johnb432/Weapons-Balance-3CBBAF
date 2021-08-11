@@ -47,3 +47,40 @@ class asdg_MuzzleSlot_9MM_SMG: asdg_MuzzleSlot {
         uk3cb_baf_silencer_l91a1 = 1;
     };
 };
+
+class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l85 = 1;
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_silencer_l85 = 1;
+        uk3cb_baf_sffh = 1;
+    };
+};
+
+class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l85 = 1;
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_silencer_l85 = 1;
+        uk3cb_baf_sffh = 1;
+    };
+};
+class asdg_MuzzleSlot_556_3CB: asdg_MuzzleSlot_556 {
+    class compatibleItems: compatibleItems {};
+};
+class asdg_MuzzleSlot_556_limited_3CB: asdg_MuzzleSlot_556 {
+    class compatibleItems: compatibleItems {};
+};
+class asdg_MuzzleSlot_556_L110A2_3CB: asdg_MuzzleSlot_556 {
+    class compatibleItems: compatibleItems {};
+};
+
+class MuzzleSlot;
+class MuzzleSlot_556: MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l85 = 1;
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_silencer_l85 = 1;
+        uk3cb_baf_sffh = 1;
+    };
+};
