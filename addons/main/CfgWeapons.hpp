@@ -1,6 +1,6 @@
 class asdg_OpticRail1913_long;
 class asdg_OpticRailL1A1;
-class asdg_MuzzleSlot_762;
+class asdg_FrontSideRail;
 
 class CfgWeapons {
     class hgun_P07_F;
@@ -73,7 +73,7 @@ class CfgWeapons {
         };
     };
     class UK3CB_BAF_L118A1_Covert: UK3CB_BAF_L115_Base {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             class CowsSlot: asdg_OpticRail1913_long {};
         };
     };
@@ -91,8 +91,12 @@ class CfgWeapons {
 
     class UK3CB_BAF_L129A1: srifle_EBR_F {
         magazineWell[] += {"CBA_762x51_SR25","CBA_762x51_AR10"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
+            delete MuzzleSlot;
+            delete PointerSlot;
+            delete UnderBarrelSlot;
             class asdg_OpticRail_UK3CB_BAF_L129A1: asdg_OpticRail1913_long {};
+            class asdg_FrontSideRail_UK3CB_BAF_L129A1: asdg_FrontSideRail {};
         };
     };
 
@@ -103,6 +107,7 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_BAF_L135A1: srifle_GM6_F {
+        magazineWell[] += {"CBA_50BMG_M107"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class asdg_OpticRail_rifles: asdg_OpticRail1913_long {};
         };
@@ -143,7 +148,7 @@ class CfgWeapons {
 
     class UK3CB_BAF_L22: UK3CB_BAF_L85A2 {
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 78;
         };
     };
