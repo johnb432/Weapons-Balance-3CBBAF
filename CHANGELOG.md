@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 29.12.2021
+
+1.1.0.2
+- Added weapon attachments compatibility.
+
 # Changelog for Weapons balance 13.11.2021
 
 1.1.0.1

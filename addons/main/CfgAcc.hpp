@@ -112,6 +112,22 @@ class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
         uk3cb_baf_sffh = 1;
     };
 };
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_bfa_l129 = 1;
+        uk3cb_baf_bfa_l7 = 1;
+        uk3cb_baf_silencer_l115a3 = 1;
+    };
+};
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_bfa_l129 = 1;
+        uk3cb_baf_bfa_l7 = 1;
+        uk3cb_baf_silencer_l115a3 = 1;
+    };
+};
 
 class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
     class compatibleItems {
