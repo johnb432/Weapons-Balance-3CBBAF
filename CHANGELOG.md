@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 5.1.2022
+
+1.1.0.3
+- Updated to comply with 3CB BAF update.
+
 # Changelog for Weapons balance 29.12.2021
 
 1.1.0.2
@@ -38,11 +43,11 @@
 
 # Changelog for Weapons balance 12.2.2021
 
-- Updated to comply with 3CB Faction update
+- Updated to comply with 3CB Faction update.
 
 # Changelog for Weapons balance 5.12.2020
 
-- Unhid UK3CB BAF 32Rnd 40mm belt and changed weight from 9.61kg to 6.53kg
+- Unhid UK3CB BAF 32Rnd 40mm belt and changed weight from 9.61kg to 6.53kg.
 
 - Weapon changes:
     - UK3CB BAF:

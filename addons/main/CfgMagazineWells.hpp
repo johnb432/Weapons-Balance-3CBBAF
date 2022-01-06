@@ -26,6 +26,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_50BMG_100rnds {
+        WB_Magazines[] += {
+            "UK3CB_BAF_127_100Rnd"
+        };
+    };
+
     class CBA_50BMG_M107 {
         WB_Magazines[] += {
             "UK3CB_BAF_127_10Rnd",
@@ -165,12 +171,6 @@ class CfgMagazineWells {
             "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell",
             "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
             "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"
-        };
-    };
-
-    class CBA_50BMG_100rnds {
-        WB_Magazines[] += {
-            "UK3CB_BAF_127_100Rnd"
         };
     };
 };

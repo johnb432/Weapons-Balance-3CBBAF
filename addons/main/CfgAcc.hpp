@@ -88,6 +88,15 @@ class asdg_MuzzleSlot_9MM_SMG: asdg_MuzzleSlot {
         uk3cb_baf_silencer_l91a1 = 1;
     };
 };
+class UK3CB_MuzzleSlot_900: asdg_MuzzleSlot_9MM_SMG {
+    class compatibleItems: compatibleItems {};
+};
+class UK3CB_MuzzleSlot_900_L91: UK3CB_MuzzleSlot_900 {
+    class compatibleItems: compatibleItems {};
+};
+
+class asdg_MuzzleSlot_9MM;
+class UK3CB_MuzzleSlot_900_L131: asdg_MuzzleSlot_9MM {};
 
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
     class compatibleItems {
@@ -97,10 +106,10 @@ class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
         uk3cb_baf_bfa_l110 = 1;
     };
 };
-class asdg_MuzzleSlot_762_3CB: asdg_MuzzleSlot_762 {
+class UK3CB_MuzzleSlot_762: asdg_MuzzleSlot_762 {
     class compatibleItems: compatibleItems {};
 };
-class asdg_MuzzleSlot_762_L129_3CB: asdg_MuzzleSlot_762 {
+class UK3CB_MuzzleSlot_762_L129: UK3CB_MuzzleSlot_762 {
     class compatibleItems: compatibleItems {};
 };
 
@@ -110,6 +119,7 @@ class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
         uk3cb_baf_bfa_l110 = 1;
         uk3cb_baf_silencer_l85 = 1;
         uk3cb_baf_sffh = 1;
+        UK3CB_BAF_Bayonet_L3A1 = 1;
     };
 };
 class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
@@ -135,15 +145,22 @@ class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
         uk3cb_baf_bfa_l110 = 1;
         uk3cb_baf_silencer_l85 = 1;
         uk3cb_baf_sffh = 1;
+        UK3CB_BAF_Bayonet_L3A1 = 1;
     };
 };
-class asdg_MuzzleSlot_556_3CB: asdg_MuzzleSlot_556 {
+class UK3CB_MuzzleSlot_556: asdg_MuzzleSlot_556 {
     class compatibleItems: compatibleItems {};
 };
-class asdg_MuzzleSlot_556_limited_3CB: asdg_MuzzleSlot_556 {
+class UK3CB_MuzzleSlot_556_L110: UK3CB_MuzzleSlot_556 {
     class compatibleItems: compatibleItems {};
 };
-class asdg_MuzzleSlot_556_L110A2_3CB: asdg_MuzzleSlot_556 {
+class UK3CB_MuzzleSlot_556_L119: asdg_MuzzleSlot_556 {
+    class compatibleItems: compatibleItems {};
+};
+class UK3CB_MuzzleSlot_556_L22: asdg_MuzzleSlot_556 {
+    class compatibleItems: compatibleItems {};
+};
+class UK3CB_MuzzleSlot_556_L85: asdg_MuzzleSlot_556 {
     class compatibleItems: compatibleItems {};
 };
 

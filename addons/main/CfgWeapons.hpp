@@ -1,6 +1,4 @@
 class asdg_OpticRail1913_long;
-class asdg_OpticRailL1A1;
-class asdg_FrontSideRail;
 
 class CfgWeapons {
     class hgun_P07_F;
@@ -18,11 +16,12 @@ class CfgWeapons {
     };
 
     class UK3CB_BAF_L110_762_Base: UK3CB_BAF_L110_Base {
-        ACE_Overheating_allowSwapBarrel = 1;
         magazineWell[] += {"M240_762x51","CBA_762x51_LINKS"};
+        class WeaponSlotsInfo {
+            class MuzzleSlot: asdg_MuzzleSlot_762 {};
+        };
     };
     class UK3CB_BAF_L110_556_Base: UK3CB_BAF_L110_Base {
-        ACE_Overheating_allowSwapBarrel = 1;
         magazines[] = {"UK3CB_BAF_556_200Rnd"};
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","M249_556x45","CBA_556x45_MINIMI"};
     };
@@ -34,7 +33,7 @@ class CfgWeapons {
 
     class UK3CB_BAF_L119_Base: arifle_Mk20_plain_F {
         magazines[] = {"UK3CB_BAF_556_30Rnd"};
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
+        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
         class WeaponSlotsInfo {};
     };
     class UK3CB_BAF_L119A1: UK3CB_BAF_L119_Base {
@@ -49,40 +48,13 @@ class CfgWeapons {
     };
     class UK3CB_BAF_L119A1_UKUGL: UK3CB_BAF_L119_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 108.3;
+            mass = 110.3;
         };
     };
-    class UK3CB_BAF_L119A1_FG: UK3CB_BAF_L119_Base {
+    class UK3CB_BAF_L119A1_RIS: UK3CB_BAF_L119_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 80;
+            mass = 77.3;
         };
-    };
-
-    class Rifle_Long_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class LRR_base_F: Rifle_Long_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class srifle_LRR_F: LRR_base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class UK3CB_BAF_L115_Base: srifle_LRR_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            class CowsSlot: asdg_OpticRail1913_long {};
-        };
-    };
-    class UK3CB_BAF_L118A1_Covert: UK3CB_BAF_L115_Base {
-        class WeaponSlotsInfo {
-            class CowsSlot: asdg_OpticRail1913_long {};
-        };
-    };
-
-    class EBR_base_F: Rifle_Long_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class srifle_EBR_F: EBR_base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
 
     class UK3CB_BAF_L128A1: srifle_EBR_F {
@@ -91,63 +63,32 @@ class CfgWeapons {
 
     class UK3CB_BAF_L129A1: srifle_EBR_F {
         magazineWell[] += {"CBA_762x51_SR25","CBA_762x51_AR10"};
-        class WeaponSlotsInfo {
-            delete MuzzleSlot;
-            delete PointerSlot;
-            delete UnderBarrelSlot;
-            class asdg_OpticRail_UK3CB_BAF_L129A1: asdg_OpticRail1913_long {};
-            class asdg_FrontSideRail_UK3CB_BAF_L129A1: asdg_FrontSideRail {};
-        };
     };
 
-    class GM6_base_F: Rifle_Long_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class srifle_GM6_F: GM6_base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
+    class srifle_GM6_F;
     class UK3CB_BAF_L135A1: srifle_GM6_F {
         magazineWell[] += {"CBA_50BMG_M107"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            class asdg_OpticRail_rifles: asdg_OpticRail1913_long {};
-        };
     };
 
     class UK3CB_BAF_L1A1: Rifle_Base_F {
         magazineWell[] += {"CBA_762x51_FAL","CBA_762x51_FAL_L"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 95;
-            delete CowsSlot;
-            class CowsSlot: asdg_OpticRailL1A1 {};
-            class asdg_MuzzleSlot_762FAL: asdg_MuzzleSlot_762 {};
-        };
-    };
-    class UK3CB_BAF_L1A1_Wood: UK3CB_BAF_L1A1 {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 95;
             class CowsSlot: asdg_OpticRailL1A1 {};
         };
     };
+
     class UK3CB_BAF_L7A2: Rifle_Base_F {
-        ACE_Overheating_allowSwapBarrel = 1;
         magazineReloadTime = 0;
         magazineWell[] += {"M240_762x51","CBA_762x51_LINKS"};
     };
 
-    class UK3CB_BAF_Tripod: UK3CB_BAF_Slung_Static_Weapon_Base {
-        magazineWell[] += {"CBA_762x51_LINKS","CBA_50BMG_100rnds"};
-   	};
-   	class UK3CB_BAF_L16_Tripod: UK3CB_BAF_Tripod {
-        magazineWell[] = {};
-   	};
-
     class UK3CB_BAF_L85A2: arifle_Mk20_plain_F {
         magazines[] = {"UK3CB_BAF_556_30Rnd"};
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
+        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
     };
 
     class UK3CB_BAF_L22: UK3CB_BAF_L85A2 {
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
         class WeaponSlotsInfo {
             mass = 78;
         };
@@ -159,18 +100,14 @@ class CfgWeapons {
     };
 
     class UK3CB_BAF_L85A3: UK3CB_BAF_L85A2 {
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
+        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
         class WeaponSlotsInfo {
             mass = 82;
             class CowsSlot: asdg_OpticRail1913_long {};
         };
     };
     class UK3CB_BAF_L86A2: UK3CB_BAF_L85A2 {
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
         UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
-    };
-    class UK3CB_BAF_L86A3: UK3CB_BAF_L85A2 {
-        magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
     };
 
     class UK3CB_BAF_L91A1: SMG_02_F {
@@ -182,9 +119,8 @@ class CfgWeapons {
     };
     class UK3CB_BAF_L92A1: UK3CB_BAF_L91A1 {
         displayName = "L92A1";
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 75;
-            class asdg_MuzzleSlot_UK3CB_BAF_L91A1 {};
         };
     };
 
