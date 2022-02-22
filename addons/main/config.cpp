@@ -29,30 +29,9 @@ class CfgPatches {
             "uk3cb_baf_vehicles_MAN"
         };
         author = "johnb43";
+        authors[] = {"johnb43"};
         url = "https://github.com/johnb432/Weapons-Balance-3CBBAF";
         VERSION_CONFIG;
-    };
-};
-
-class CfgMods {
-    class Mod_Base;
-    class PREFIX: Mod_Base {
-        name = "Weapons Balance - 3CB BAF";
-        author = "johnb43";
-        tooltip = "Weapons Balance - 3CB BAF";
-        tooltipOwned = "Weapons Balance - 3CB BAF";
-        hideName = 0;
-        hidePicture = 0;
-        dir = "@wb_3cbbaf";
-        actionName = "Github";
-        action = "https://github.com/johnb432/Weapons-Balance-3CBBAF";
-        description = "A collection of balancing mods made by johnb43.";
-        overview = "A collection of balancing mods made by johnb43.";
-        picture = "\z\wb_3cbbaf\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
-        logo = "\z\wb_3cbbaf\addons\main\ui\logo_weapons_balance.paa";
-        logoOver = "\z\wb_3cbbaf\addons\main\ui\logo_weapons_balance.paa";
-        logoSmall = "\z\wb_3cbbaf\addons\main\ui\logo_weapons_balance.paa";
-        overviewPicture = "\z\wb_3cbbaf\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 

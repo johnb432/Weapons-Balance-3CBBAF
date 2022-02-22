@@ -4,7 +4,6 @@ tooltip = "Weapons Balance - 3CB BAF";
 tooltipOwned = "Weapons Balance - 3CB BAF";
 hideName = 0;
 hidePicture = 0;
-dir = "@wb_3cbbaf";
 actionName = "Github";
 action = "https://github.com/johnb432/Weapons-Balance-3CBBAF";
 description = "A collection of balancing mods made by johnb43.";
