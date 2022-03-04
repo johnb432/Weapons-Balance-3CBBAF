@@ -1,6 +1,7 @@
 class asdg_OpticRail1913_long;
 
 class CfgWeapons {
+    class Rifle_Long_Base_F;
     class hgun_P07_F;
     class SMG_02_F;
     class arifle_Mk20_plain_F;
@@ -78,7 +79,7 @@ class CfgWeapons {
         };
     };
 
-    class UK3CB_BAF_L7A2: Rifle_Base_F {
+    class UK3CB_BAF_L7A2: Rifle_Long_Base_F {
         magazineReloadTime = 0;
         magazineWell[] += {"M240_762x51","CBA_762x51_LINKS"};
     };
