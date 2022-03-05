@@ -38,7 +38,7 @@ class CfgPatches {
 class BettIR_Config {
     class CompatibleNightvisionGoggles {
         class UK3CB_BAF_HMNVS {
-            offset[] = {0,0.15,0.14};
+            offset[] = {0, 0.15, 0.14};
         };
     };
 
