@@ -34,3 +34,20 @@ class CfgPatches {
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgWeapons.hpp"
+
+class BettIR_Config {
+    class CompatibleNightvisionGoggles {
+        class UK3CB_BAF_HMNVS {
+            offset[] = {0,0.15,0.14};
+        };
+    };
+
+    class CompatibleAttachments {
+        class uk3cb_baf_llm_ir_black {
+            offset[] = {0.15, 0.22, 0.25};
+        };
+        class uk3cb_baf_llm_ir_tan {
+            offset[] = {0.15, 0.22, 0.25};
+        };
+    };
+};

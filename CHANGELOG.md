@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 5.3.2022
+
+1.1.0.7
+- Added BettIR compatibility.
+
 # Changelog for Weapons balance 4.3.2022
 
 1.1.0.6
