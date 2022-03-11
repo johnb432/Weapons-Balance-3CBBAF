@@ -173,3 +173,11 @@ class MuzzleSlot_556: MuzzleSlot {
         uk3cb_baf_sffh = 1;
     };
 };
+class MuzzleSlot_762: MuzzleSlot {
+    class compatibleItems {
+        uk3cb_baf_bfa_l110 = 1;
+        uk3cb_baf_bfa_l129 = 1;
+        uk3cb_baf_bfa_l7 = 1;
+        uk3cb_baf_silencer_l115a3 = 1;
+    };
+};

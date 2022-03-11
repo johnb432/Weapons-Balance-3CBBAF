@@ -6,6 +6,13 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_338LM_AI {
+        MAGAZINE_WELL[] += {
+            "UK3CB_BAF_338_5Rnd",
+            "UK3CB_BAF_338_5Rnd_Tracer"
+        };
+    };
+
     class CBA_40mm_M203 {
         MAGAZINE_WELL[] += {
             "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
