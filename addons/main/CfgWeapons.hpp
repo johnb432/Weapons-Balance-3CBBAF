@@ -110,6 +110,9 @@ class CfgWeapons {
     class UK3CB_BAF_L86A2: UK3CB_BAF_L85A2 {
         UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     };
+    class UK3CB_BAF_L86A3: UK3CB_BAF_L86A2 {
+        UiPicture = "\A3\Weapons_F\data\UI\icon_regular_CA.paa";
+    };
 
     class UK3CB_BAF_L91A1: SMG_02_F {
         displayName = "L91A1";
