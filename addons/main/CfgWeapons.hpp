@@ -6,14 +6,14 @@ class CfgWeapons {
     class SMG_02_F;
     class arifle_Mk20_plain_F;
     class LMG_RCWS;
+    class HMG_M2;
     class srifle_EBR_F;
     class UK3CB_BAF_L105A2;
     class UK3CB_BAF_L110_Base;
-    class UK3CB_BAF_L115_Base;
     class UK3CB_BAF_Slung_Static_Weapon_Base;
     class Rifle;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     class UK3CB_BAF_L110_762_Base: UK3CB_BAF_L110_Base {
@@ -35,7 +35,7 @@ class CfgWeapons {
     class UK3CB_BAF_L119_Base: arifle_Mk20_plain_F {
         magazines[] = {"UK3CB_BAF_556_30Rnd"};
         magazineWell[] += {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class UK3CB_BAF_L119A1: UK3CB_BAF_L119_Base {
         class WeaponSlotsInfo {
@@ -47,14 +47,14 @@ class CfgWeapons {
             mass = 71.8;
         };
     };
+    class UK3CB_BAF_L119A1_RIS: UK3CB_BAF_L119_Base {
+        class WeaponSlotsInfo {
+            mass = 77.3;
+        };
+    };
     class UK3CB_BAF_L119A1_UKUGL: UK3CB_BAF_L119_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 110.3;
-        };
-    };
-    class UK3CB_BAF_L119A1_RIS: UK3CB_BAF_L119_Base {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 77.3;
         };
     };
 
@@ -151,6 +151,16 @@ class CfgWeapons {
             "150Rnd_762x51_Box_Tracer"
         };
     };
+
+    class UK3CB_BAF_L111A1_veh: HMG_M2 {
+        magazineWell[] += {"CBA_50BMG_100rnds"};
+    };
+
+    class UK3CB_BAF_L111A1: UK3CB_BAF_Slung_Static_Weapon_Base {
+        magazineWell[] += {"CBA_50BMG_100rnds"};
+    };
+
+    // 3CB BAF Vehicles
     class UK3CB_BAF_L112A1_veh: LMG_RCWS {
         magazineWell[] += {"CBA_762x51_LINKS"};
         magazines[] += {
@@ -158,16 +168,7 @@ class CfgWeapons {
             "150Rnd_762x51_Box_Tracer"
         };
     };
-
-    class HMG_M2;
     class UK3CB_BAF_L111A1_vehicle: HMG_M2 {
-        magazineWell[] += {"CBA_50BMG_100rnds"};
-    };
-    class UK3CB_BAF_L111A1_veh: HMG_M2 {
-        magazineWell[] += {"CBA_50BMG_100rnds"};
-    };
-
-    class UK3CB_BAF_L111A1: UK3CB_BAF_Slung_Static_Weapon_Base {
         magazineWell[] += {"CBA_50BMG_100rnds"};
     };
 };

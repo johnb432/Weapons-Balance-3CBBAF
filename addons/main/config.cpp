@@ -7,21 +7,22 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "uk3cb_baf_weapons_Accessories",
-            "uk3cb_baf_weapons_Ammo",
-            "uk3cb_baf_weapons_L1a1",
-            "uk3cb_baf_weapons_L7",
-            "uk3cb_baf_weapons_L9A1",
-            "uk3cb_baf_weapons_L85a3",
-            "uk3cb_baf_weapons_L105a1",
-            "uk3cb_baf_weapons_L110",
-            "uk3cb_baf_weapons_L115",
-            "uk3cb_baf_weapons_L119",
-            "uk3cb_baf_weapons_L129",
-            "uk3cb_baf_weapons_L131a1",
-            "uk3cb_baf_weapons_Launchers",
-            "uk3cb_baf_weapons_SmallArms",
-            "uk3cb_baf_weapons_static"
+            "UK3CB_BAF_Weapons_Accessories",
+            "UK3CB_BAF_Weapons_Ammo",
+            "UK3CB_BAF_Weapons_L1a1",
+            "UK3CB_BAF_Weapons_L7",
+            "UK3CB_BAF_Weapons_L9A1",
+            "UK3CB_BAF_Weapons_L85A3",
+            "UK3CB_BAF_Weapons_L105A1",
+            "UK3CB_BAF_Weapons_L110",
+            "UK3CB_BAF_Weapons_L115",
+            "UK3CB_BAF_Weapons_L119",
+            "UK3CB_BAF_Weapons_L129",
+            "UK3CB_BAF_Weapons_L131A1",
+            "UK3CB_BAF_Weapons_Launchers",
+            "UK3CB_BAF_Weapons_SmallArms",
+            "UK3CB_BAF_Weapons_Static",
+            "UK3CB_BAF_Vehicles_Weapons"
         };
         author = "johnb43";
         authors[] = {"johnb43"};
