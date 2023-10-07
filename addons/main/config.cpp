@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "UK3CB_BAF_Weapons_Accessories",
             "UK3CB_BAF_Weapons_Ammo",
             "UK3CB_BAF_Weapons_L1a1",

@@ -149,15 +149,87 @@ class CfgWeapons {
         magazines[] += {
             "150Rnd_762x51_Box",
             "150Rnd_762x51_Box_Tracer"
+
+            #if __has_include("\hlc_wp_m60E4\config.bin")
+                ,
+                "hlc_100Rnd_762x51_B_M60E4",
+                "hlc_100Rnd_762x51_Mdim_M60E4",
+                "hlc_100Rnd_762x51_M_M60E4",
+                "hlc_100Rnd_762x51_Barrier_M60E4",
+                "hlc_100Rnd_762x51_T_M60E4",
+                "hlc_200Rnd_762x51_B_M60E4",
+                "hlc_200Rnd_762x51_Mdim_M60E4",
+                "hlc_200Rnd_762x51_M_M60E4",
+                "hlc_200Rnd_762x51_Barrier_M60E4",
+                "hlc_200Rnd_762x51_T_M60E4"
+            #endif
+
+            #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_common\config.cpp")
+                ,
+                "UK3CB_M60_100rnd_762x51_GT",
+                "UK3CB_M60_100rnd_762x51_RT",
+                "UK3CB_M60_100rnd_762x51_WT",
+                "UK3CB_M60_100rnd_762x51_YT",
+                "UK3CB_M60_100rnd_762x51_G",
+                "UK3CB_M60_100rnd_762x51_R",
+                "UK3CB_M60_100rnd_762x51_W",
+                "UK3CB_M60_100rnd_762x51_Y",
+                "UK3CB_M60_100rnd_762x51",
+                "UK3CB_M60_100rnd_762x51_GM",
+                "UK3CB_M60_100rnd_762x51_RM",
+                "UK3CB_M60_100rnd_762x51_WM",
+                "UK3CB_M60_100rnd_762x51_YM"
+            #endif
+
+            #if __has_include("\bwa3_common\config.bin")
+                ,
+                "BWA3_120Rnd_762x51_soft",
+                "BWA3_120Rnd_762x51_Tracer_soft",
+                "BWA3_120Rnd_762x51",
+                "BWA3_120Rnd_762x51_Tracer",
+                "BWA3_1200Rnd_762x51"
+            #endif
+
+            #if __has_include("\AMF_mag58\config.bin")
+                ,
+                "50Rnd_762x51_band",
+                "50Rnd_mag58_mag",
+                "50Rnd_mag58_mag_Tracer_green",
+                "50Rnd_mag58_mag_Tracer_red",
+                "50Rnd_mag58_mag_tracer_yellow",
+                "75Rnd_mag58_mag",
+                "75Rnd_mag58_mag_Tracer_green",
+                "75Rnd_mag58_mag_Tracer_red",
+                "75Rnd_mag58_mag_tracer_yellow"
+            #endif
         };
     };
 
+
     class UK3CB_BAF_L111A1_veh: HMG_M2 {
         magazineWell[] += {"CBA_50BMG_100rnds"};
+
+        #if __has_include("\z\ace\addons\csw\CfgMagazines.hpp")
+            magazines[] += {
+                "ace_csw_100Rnd_127x99_mag",
+                "ace_csw_100Rnd_127x99_mag_red",
+                "ace_csw_100Rnd_127x99_mag_green",
+                "ace_csw_100Rnd_127x99_mag_yellow"
+            };
+        #endif
     };
 
     class UK3CB_BAF_L111A1: UK3CB_BAF_Slung_Static_Weapon_Base {
         magazineWell[] += {"CBA_50BMG_100rnds"};
+
+        #if __has_include("\z\ace\addons\csw\CfgMagazines.hpp")
+            magazines[] += {
+                "ace_csw_100Rnd_127x99_mag",
+                "ace_csw_100Rnd_127x99_mag_red",
+                "ace_csw_100Rnd_127x99_mag_green",
+                "ace_csw_100Rnd_127x99_mag_yellow"
+            };
+        #endif
     };
 
     // 3CB BAF Vehicles
@@ -166,9 +238,75 @@ class CfgWeapons {
         magazines[] += {
             "150Rnd_762x51_Box",
             "150Rnd_762x51_Box_Tracer"
+
+            #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+                ,
+                "rhsusf_50Rnd_762x51",
+                "rhsusf_50Rnd_762x51_m61_ap",
+                "rhsusf_50Rnd_762x51_m62_tracer",
+                "rhsusf_50Rnd_762x51_m80a1epr",
+                "rhsusf_50Rnd_762x51_m82_blank",
+                "rhsusf_50Rnd_762x51_m993",
+                "rhsusf_100Rnd_762x51",
+                "rhsusf_100Rnd_762x51_m61_ap",
+                "rhsusf_100Rnd_762x51_m62_tracer",
+                "rhsusf_100Rnd_762x51_m80a1epr",
+                "rhsusf_100Rnd_762x51_m82_blank",
+                "rhsusf_100Rnd_762x51_m993"
+            #endif
+
+            #if __has_include("\hlc_wp_m60E4\config.bin")
+                ,
+                "hlc_100Rnd_762x51_B_M60E4",
+                "hlc_100Rnd_762x51_Mdim_M60E4",
+                "hlc_100Rnd_762x51_M_M60E4",
+                "hlc_100Rnd_762x51_Barrier_M60E4",
+                "hlc_100Rnd_762x51_T_M60E4",
+                "hlc_200Rnd_762x51_B_M60E4",
+                "hlc_200Rnd_762x51_Mdim_M60E4",
+                "hlc_200Rnd_762x51_M_M60E4",
+                "hlc_200Rnd_762x51_Barrier_M60E4",
+                "hlc_200Rnd_762x51_T_M60E4"
+            #endif
+
+            #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_common\config.cpp")
+                ,
+                "UK3CB_M60_100rnd_762x51_GT",
+                "UK3CB_M60_100rnd_762x51_RT",
+                "UK3CB_M60_100rnd_762x51_WT",
+                "UK3CB_M60_100rnd_762x51_YT",
+                "UK3CB_M60_100rnd_762x51_G",
+                "UK3CB_M60_100rnd_762x51_R",
+                "UK3CB_M60_100rnd_762x51_W",
+                "UK3CB_M60_100rnd_762x51_Y",
+                "UK3CB_M60_100rnd_762x51",
+                "UK3CB_M60_100rnd_762x51_GM",
+                "UK3CB_M60_100rnd_762x51_RM",
+                "UK3CB_M60_100rnd_762x51_WM",
+                "UK3CB_M60_100rnd_762x51_YM"
+            #endif
+
+            #if __has_include("\bwa3_common\config.bin")
+                ,
+                "BWA3_120Rnd_762x51_soft",
+                "BWA3_120Rnd_762x51_Tracer_soft",
+                "BWA3_120Rnd_762x51",
+                "BWA3_120Rnd_762x51_Tracer",
+                "BWA3_1200Rnd_762x51"
+            #endif
         };
     };
+
     class UK3CB_BAF_L111A1_vehicle: HMG_M2 {
         magazineWell[] += {"CBA_50BMG_100rnds"};
+
+        #if __has_include("\z\ace\addons\csw\CfgMagazines.hpp")
+            magazines[] += {
+                "ace_csw_100Rnd_127x99_mag",
+                "ace_csw_100Rnd_127x99_mag_red",
+                "ace_csw_100Rnd_127x99_mag_green",
+                "ace_csw_100Rnd_127x99_mag_yellow"
+            };
+        #endif
     };
 };
