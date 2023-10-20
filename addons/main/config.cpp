@@ -26,30 +26,31 @@ class CfgPatches {
             "UK3CB_BAF_Vehicles_Weapons"
         };
         author = "johnb43";
-        authors[] = {"johnb43"};
+        authors[] = {
+            "johnb43",
+            "ThePointForward",
+            "NeilZar"
+        };
         url = "https://github.com/johnb432/Weapons-Balance-3CBBAF";
         VERSION_CONFIG;
     };
 };
 
 #include "CfgAcc.hpp"
+#include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgWeapons.hpp"
 
 class BettIR_Config {
     class CompatibleNightvisionGoggles {
-        class UK3CB_BAF_HMNVS {
-            offset[] = {0, 0.15, 0.14};
-        };
+        class __base_Monocular;
+        class UK3CB_BAF_HMNVS: __base_Monocular {};
     };
 
     class CompatibleAttachments {
-        class uk3cb_baf_llm_ir_black {
-            offset[] = {0.15, 0.22, 0.25};
-        };
-        class uk3cb_baf_llm_ir_tan {
-            offset[] = {0.15, 0.22, 0.25};
-        };
+        class __base_rightSiderailPointer;
+        class UK3CB_BAF_LLM_IR_Black: __base_rightSiderailPointer {};
+        class UK3CB_BAF_LLM_IR_Tan: __base_rightSiderailPointer {};
     };
 };

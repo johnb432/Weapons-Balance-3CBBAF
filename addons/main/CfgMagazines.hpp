@@ -41,7 +41,7 @@ class CfgMagazines {
             MAG_PROXY;
         };
         class UK3CB_BAF_762_100Rnd_Blank: UK3CB_BAF_762_100Rnd {
-            MAG_PROXY
+            MAG_PROXY;
         };
         class UK3CB_BAF_762_100Rnd_T: 150Rnd_762x51_Box_Tracer {
             MAG_PROXY;
