@@ -1,12 +1,12 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
     #define MAG_PROXY \
-        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";\
         modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";\
         modelSpecialIsProxy = 1
 #else
     #if __has_include("\hlc_wp_m60E4\config.bin")
         #define MAG_PROXY \
-            model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";\
             modelSpecial = "\hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60";\
             modelSpecialIsProxy = 1
     #endif
@@ -75,19 +75,16 @@ class CfgMagazines {
 
         #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
             class UK3CB_BAF_556_100Rnd_Blank: UK3CB_BAF_556_30Rnd_Blank {
-                model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
                 modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
                 modelSpecialIsProxy = 1;
                 reloadAction = "rhs_GestureReloadM249";
             };
             class UK3CB_BAF_556_100Rnd: UK3CB_BAF_556_30Rnd {
-                model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
                 modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
                 modelSpecialIsProxy = 1;
                 reloadAction = "rhs_GestureReloadM249";
             };
             class UK3CB_BAF_556_100Rnd_T: UK3CB_BAF_556_30Rnd_T {
-                model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
                 modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
                 modelSpecialIsProxy = 1;
                 reloadAction = "rhs_GestureReloadM249";
@@ -140,7 +137,6 @@ class CfgMagazines {
     #if __has_include("\hlc_wp_mp5\config.bin")
         class 30Rnd_9x21_Mag;
         class UK3CB_BAF_9_30Rnd: 30Rnd_9x21_Mag {
-            model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
             modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
             modelSpecialIsProxy = 1;
         };

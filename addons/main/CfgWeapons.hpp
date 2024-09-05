@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class asdg_OpticRail1913_long;
 
 class CfgWeapons {
